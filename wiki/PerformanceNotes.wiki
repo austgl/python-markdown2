@@ -22,8 +22,7 @@ python gen_perf_cases.py
 }}}
 
 I'd be very interested in other real-world performance suites. Please
-[http://code.google.com/p/python-markdown2/issues/entry?summary=idea%20for%20new%20perf%20suite
-log an issue] if you have a suggestion for another perf suite that I should
+[http://code.google.com/p/python-markdown2/issues/entry?summary=idea%20for%20new%20perf%20suite log an issue] if you have a suggestion for another perf suite that I should
 check.
 
 
@@ -32,12 +31,9 @@ check.
 Currently I compare the processing time against
 [http://daringfireball.net/projects/markdown/ Markdown.pl] and
 [http://www.freewisdom.org/projects/python-markdown/Features markdown.py]. I'd
-like to compare against [http://www.michelf.com/projects/php-markdown/
-markdown.php] but I'd appreciate someone's help on doing for `markdown.php`
-what [http://python-markdown2.googlecode.com/svn/trunk/perf/Markdown.pm
-perf/Markdown.pm] and
-[http://python-markdown2.googlecode.com/svn/trunk/perf/time_markdown_pl.pl
-perf/time_markdown_pl.pl] are for `Markdown.pl` (basically tweaking it to be
+like to compare against [http://www.michelf.com/projects/php-markdown/ markdown.php] but I'd appreciate someone's help on doing for `markdown.php`
+what [http://python-markdown2.googlecode.com/svn/trunk/perf/Markdown.pm perf/Markdown.pm] and
+[http://python-markdown2.googlecode.com/svn/trunk/perf/time_markdown_pl.pl perf/time_markdown_pl.pl] are for `Markdown.pl` (basically tweaking it to be
 runnable from the command line).
 
 Of course, as with all performance comparisons, only the relative numbers are
@@ -212,3 +208,4 @@ We've got a problem header!
 }}}
 
 
+ 
