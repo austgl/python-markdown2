@@ -4,25 +4,10 @@
 The markdown2 sources' `test` sub-directory holding it's test suite.
 There are a number of test sets, each in its own directory:
 
-- tm-cases/
-
-  Cases I wrote while writing markdown2.py. Many of these are very small bits
-  of text testing a specific part of the Markdown syntax.
-
-- markdowntest-cases/
-
-  The test cases from the MarkdownTest-N.N.N.zip package announce on the
-  markdown-discuss list.
-
-- php-markdown-cases/
-
-  Test cases included in the PHP Markdown Test package
-  [http://six.pairlist.net/pipermail/markdown-discuss/2007-July/000674.html announce on markdow-discuss in July 2007].
-
-- php-markdown-extra-cases/
-
-  Test cases included in the PHP Markdown Test package (same as above)
-  testing extra Markdown syntax that only PHP Markdown implements.
+|| tm-cases/ || Cases I wrote while writing markdown2.py. Many of these are very small bits of text testing a specific part of the Markdown syntax. ||
+|| markdowntest-cases/ || The test cases from the MarkdownTest-N.N.N.zip package announce on the markdown-discuss list. ||
+|| php-markdown-cases/ || Test cases included in the PHP Markdown Test package [http://six.pairlist.net/pipermail/markdown-discuss/2007-July/000674.html announce on markdow-discuss in July 2007]. ||
+|| php-markdown-extra-cases/ || Test cases included in the PHP Markdown Test package (same as above) testing extra Markdown syntax that only PHP Markdown implements. ||
 
 
 = markdown2.py test results =
