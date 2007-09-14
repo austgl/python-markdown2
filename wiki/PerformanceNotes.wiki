@@ -68,8 +68,7 @@ syntax that it cannot handle in some of the ASPN test cases.
 Here is profiling information for `markdown2.py` to show where the best
 possible performance gains could be found. However, I'm content with the
 current performance -- at least with the current perf suites. The profiling is
-done with [http://docs.python.org/lib/module-hotshot.html Python 2.5's hotshot
-module].
+done with [http://docs.python.org/lib/module-hotshot.html Python 2.5's hotshot module].
 
 {{{
 $ python perf.py --hotshot -i markdown2.py --repeat 5 tmp-test-cases
@@ -208,4 +207,5 @@ We've got a problem header!
 }}}
 
 
+ 
  
