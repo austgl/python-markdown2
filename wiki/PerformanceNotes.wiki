@@ -1,0 +1,15 @@
+#summary Performance notes on Markdown implementations
+
+The markdown2 sources have a `perf` sub-directory with some performance tools for profiling markdown2 and comparing its speed against markdown.py and Markdown.pl.
+
+= The performance "suites"
+
+There are two sets of "suites" (sets of .text files to convert) that I've been using for testing. One is a copy of all the test cases from the `test` dir (see [TestingNotes]). The second is a .text file for every description and comment in the Python Cookbook (I've been playing with a refreshment of the Python XXX.
+To generate some performance suites run:
+
+{{{
+cd perf
+python gen_perf_cases.py
+}}}
+
+TODO: finish this
