@@ -75,22 +75,16 @@ Which produces HTML like this:
 
 Notes:
 
-  * test
-  * a list
-  * here
-
-blah
-
-  - TODO: It isn't clear whether the id is "fn1-1" for markdown "[^1]" or just
+  * TODO: It isn't clear whether the id is "fn1-1" for markdown "[^1]" or just
     "fn1".
-  - I couldn't tell from the markdown-discuss discussion on footnotes whether
+  * I couldn't tell from the markdown-discuss discussion on footnotes whether
     John Gruber meant that the current date was added as a suffix to the anchors
     in his private Markdown.pl or whether he was literally putting in the
     "YYYY-MM-DD" strings in his markdown text.
-  - Daringfireball.net (John Gruber's) site uses the "footnoteBackLink" class on
+  * Daringfireball.net (John Gruber's) site uses the "footnoteBackLink" class on
     the backref `<a>`. Also, he does *not* add the `class="footnote-ref"` on
-    `<sup>` though that was mentioned here (TODO: link to discuss post about
-    that).
+    `<sup>`. Neither of these jive with
+    [http://six.pairlist.net/pipermail/markdown-discuss/2005-August/001480.html what was described here].
 
 [http://code.google.com/p/python-markdown2/issues/detail?id=1 Patch] partly
 from Adam Gomaa (thanks Adam!).
@@ -98,6 +92,7 @@ from Adam Gomaa (thanks Adam!).
 
 = extras to add =
 
-- pygments-based syntax coloring (have a patch from Adam)
-- smartypants
-- some PHPMarkdown Extra features?
+  * pygments-based syntax coloring (have a patch from Adam)
+  * smartypants
+  * some PHPMarkdown Extra features?
+
