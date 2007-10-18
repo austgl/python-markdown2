@@ -26,7 +26,7 @@ and via the module interface:
 
 = code-friendly =
 
-This extra *disables* the use of leading and trailing '_' and '__' for emphasis
+This extra *disables* the use of leading and trailing `_` and `__` for emphasis
 and strong. These can easily get in the way when writing docs about source code
 with `variable_list_this` and when one is not careful about quoting.
 
@@ -85,5 +85,3 @@ Patch mostly from XXX (thanks XXX!).
 - pygments-based syntax coloring (have a patch from Adam)
 - smartypants
 - some PHPMarkdown Extra features?
-
-
