@@ -73,11 +73,17 @@ Which produces HTML like this:
 }}}
 
 
+This is as close as I can tell is the favoured output from the following sources:
+
+  * http://daringfireball.net/2005/07/footnotes
+  * http://six.pairlist.net/pipermail/markdown-discuss/2005-August/001442.html
+  * http://six.pairlist.net/pipermail/markdown-discuss/2005-August/001480.html
+
 Notes:
 
-  * TODO: It isn't clear whether the id is "fn1-1" for markdown "[^1]" or just "fn1".
   * I couldn't tell from the markdown-discuss discussion on footnotes whether John Gruber meant that the current date was added as a suffix to the anchors in his private Markdown.pl or whether he was literally putting in the "YYYY-MM-DD" strings in his markdown text.
   * Daringfireball.net (John Gruber's) site uses the "footnoteBackLink" class on the backref `<a>`. Also, he does *not* add the `class="footnote-ref"` on `<sup>`. Neither of these jive with [http://six.pairlist.net/pipermail/markdown-discuss/2005-August/001480.html what was described here].
+  * Add hooks/variables on the `Markdown` class to allow easy tweaking of this output above.
 
 [http://code.google.com/p/python-markdown2/issues/detail?id=1 Patch] partly
 from Adam Gomaa (thanks Adam!).
