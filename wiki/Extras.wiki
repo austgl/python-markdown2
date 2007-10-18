@@ -75,9 +75,11 @@ Which produces HTML like this:
 
 Notes:
 
-*  test
-*  a list
-*  here
+  * test
+  * a list
+  * here
+
+blah
 
   - TODO: It isn't clear whether the id is "fn1-1" for markdown "[^1]" or just
     "fn1".
