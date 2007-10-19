@@ -93,5 +93,4 @@ from Adam Gomaa (thanks Adam!).
 
   * pygments-based syntax coloring (have a patch from Adam)
   * smartypants
-  * some PHPMarkdown Extra features?
-
+  * see a lot more in TODO.txt
