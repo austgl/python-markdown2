@@ -63,7 +63,7 @@ Which produces HTML like this:
 <hr />
 <ol>
 <li id="fn-note-id">
-<p>This is the text of the note.&nbsp;
+<p>This is the text of the note.&nbsp; &raquo;
 <a href="#fnref-note-id" class="footnoteBackLink" title="Jump back to footnote 1 in the text.">&#8617;</a></p>
 </li>
 
