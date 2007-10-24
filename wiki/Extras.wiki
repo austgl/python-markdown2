@@ -63,7 +63,7 @@ Which produces HTML like this:
 <hr />
 <ol>
 <li id="fn-note-id">
-<p>This is the text of the note.&nbsp; &raquo;
+<p>This is the text of the note.&nbsp;
 <a href="#fnref-note-id" class="footnoteBackLink" title="Jump back to footnote 1 in the text.">&#8617;</a></p>
 </li>
 
@@ -150,4 +150,6 @@ $ python markdown2.py -x link-patterns --link-patterns-file patterns foo.text
 = extras to add =
 
   * smartypants
-  * see a lot more in TODO.txt
+  * see a lot more in [http://python-markdown2.googlecode.com/svn/trunk/TODO.txt TODO.txt]
+
+
