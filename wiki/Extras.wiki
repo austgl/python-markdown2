@@ -115,7 +115,8 @@ appropriate links:
 ... ]
 >>> markdown2.markdown('Recipe 123 and Komodo bug 234 are related.'
 ...     extras=["link-patterns"], link_patterns=link_patterns)
-'<p><a href="http://code.activestate.com/recipes/123/">Recipe 123</a> and <a href="http://bugs.activestate.com/show_bug.cgi?id=234">Komodo bug 234</a> are related.</p>'
+'<p><a href="http://code.activestate.com/recipes/123/">Recipe 123</a> and \
+<a href="http://bugs.activestate.com/show_bug.cgi?id=234">Komodo bug 234</a> are related.</p>'
 }}}
 
 
