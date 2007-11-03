@@ -147,9 +147,9 @@ $ python markdown2.py -x link-patterns --link-patterns-file patterns foo.text
 
 
 
-= extras to add =
+= extras TODO =
 
-  * smartypants
+  * smartypants (http://daringfireball.net/projects/smartypants/)
   * see a lot more in [http://python-markdown2.googlecode.com/svn/trunk/TODO.txt TODO.txt]
 
 
