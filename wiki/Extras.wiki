@@ -5,6 +5,10 @@ By default `markdown2.py`'s processing attempts to produce output exactly as
 defined by http://daringfireball.net/projects/markdown/syntax -- the "Markdown
 core." However, a few optional extras are also provided.
 
+= Implemented Extras =
+
+- CodeFriendly
+
 = How to turn on extras =
 
 Extras are all *off* by default and turned on as follows on the command line:
@@ -32,24 +36,6 @@ and via the module interface:
 <!-- markdown-extras: code-friendly, footnotes -->
 This markdown text will be converted with the "code-friendly" and "footnotes"
 extras enabled.
-}}}
-
-= Implemented Extras =
-
-TODO
-
-= code-friendly =
-
-This extra *disables* the use of leading and trailing `_` and `__` for emphasis
-and strong. These can easily get in the way when writing docs about source code
-with `variable_list_this` and when one is not careful about quoting.
-
-{{{
->>> markdown2.markdown("use 'self.this_long_attr' for the *real* mccoy")
-"<p>use 'self.this<em>long</em>attr' for the <em>real</em> mccoy</p>\n"
->>> markdown2.markdown("use 'self.this_long_attr' for the *real* mccoy",
-...                    extras=["code-friendly"])
-"<p>use 'self.this_long_attr' for the <em>real</em> mccoy</p>\n"
 }}}
 
 

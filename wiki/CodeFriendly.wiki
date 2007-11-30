@@ -1,3 +1,17 @@
 #summary The "code-friendly" extra
 
-blah blah
+This extra *disables* the use of leading and trailing `_` and `__` for emphasis
+and strong. These can easily get in the way when writing docs about source code
+with `variable_list_this` and when one is not careful about quoting.
+
+{{{
+>>> markdown2.markdown("use 'self.this_long_attr' for the *real* mccoy")
+"<p>use 'self.this<em>long</em>attr' for the <em>real</em> mccoy</p>\n"
+>>> markdown2.markdown("use 'self.this_long_attr' for the *real* mccoy",
+...                    extras=["code-friendly"])
+"<p>use 'self.this_long_attr' for the <em>real</em> mccoy</p>\n"
+}}}
+
+
+(Return to Extras section.)
+
