@@ -1,0 +1,3 @@
+#summary The "code-friendly" extra
+
+blah blah
