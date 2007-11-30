@@ -8,9 +8,9 @@ core." However, a few optional extras are also provided.
 
 = Implemented Extras =
 
-- [CodeFriendly]: Disable `_` and `__` for `em` and `strong`.
-- [Footnotes]: support footnotes as in use on daringfireball.net and implemented
-  in other Markdown processors (tho not in Markdown.pl v1.0.1).
+  - [CodeFriendly]: Disable `_` and `__` for `em` and `strong`.
+  - [Footnotes]: support footnotes as in use on daringfireball.net and implemented
+    in other Markdown processors (tho not in Markdown.pl v1.0.1).
 
 
 = How to turn on extras =
@@ -103,5 +103,3 @@ $ python markdown2.py -x link-patterns --link-patterns-file patterns foo.text
 
   * smartypants (http://daringfireball.net/projects/smartypants/)
   * see a lot more in [http://python-markdown2.googlecode.com/svn/trunk/TODO.txt TODO.txt]
-
-
