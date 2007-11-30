@@ -51,3 +51,5 @@ Notes:
 [http://code.google.com/p/python-markdown2/issues/detail?id=1 Patch] partly
 from Adam Gomaa (thanks Adam!).
 
+(Return to [Extras] page.)
+

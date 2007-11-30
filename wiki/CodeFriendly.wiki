@@ -13,4 +13,5 @@ with `variable_like_this` and when one is not careful about quoting.
 }}}
 
 
-(Return to [Extras] section.)
+(Return to [Extras] page.)
+
