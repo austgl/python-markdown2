@@ -1,12 +1,13 @@
 #summary Extras provided by markdown2.py
 #labels Featured
 
-This page described the extra features (additional syntax, etc.) over the core
-functionality (as defined by
-http://daringfireball.net/projects/markdown/syntax) that `markdown2.py`
-provides.
+By default `markdown2.py`'s processing attempts to produce output exactly as
+defined by http://daringfireball.net/projects/markdown/syntax -- the "Markdown
+core." However, a few optional extras are also provided.
 
-These are all *off* by default and turned on as follows on the command line:
+= How to turn on extras =
+
+Extras are all *off* by default and turned on as follows on the command line:
 
 {{{
 python markdown2.py --extras name1,name2 ...
@@ -24,6 +25,18 @@ and via the module interface:
 <em>boo!</em>
 }}}
 
+(*New in v1.0.1.2*) You can also now specify extras via the "markdown-extras"
+[http://www.gnu.org/software/emacs/manual/html_node/emacs/Specifying-File-Variables.html emacs-style local variable]:
+
+{{{
+<!-- markdown-extras: code-friendly, footnotes -->
+This markdown text will be converted with the "code-friendly" and "footnotes"
+extras enabled.
+}}}
+
+= Implemented Extras =
+
+TODO
 
 = code-friendly =
 
