@@ -9,8 +9,7 @@ core." However, a few optional extras are also provided.
 = Implemented Extras =
 
  * [CodeFriendly]: Disable `_` and `__` for `em` and `strong`.
- * [Footnotes]: support footnotes as in use on daringfireball.net and implemented
-   in other Markdown processors (tho not in Markdown.pl v1.0.1).
+ * [Footnotes]: support footnotes as in use on daringfireball.net and implemented in other Markdown processors (tho not in Markdown.pl v1.0.1).
 
 
 = How to turn on extras =
