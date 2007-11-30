@@ -2,7 +2,7 @@
 
 This extra *disables* the use of leading and trailing `_` and `__` for emphasis
 and strong. These can easily get in the way when writing docs about source code
-with `variable_list_this` and when one is not careful about quoting.
+with `variable_like_this` and when one is not careful about quoting.
 
 {{{
 >>> markdown2.markdown("use 'self.this_long_attr' for the *real* mccoy")
@@ -13,5 +13,4 @@ with `variable_list_this` and when one is not careful about quoting.
 }}}
 
 
-(Return to Extras section.)
-
+(Return to [Extras] section.)
