@@ -19,6 +19,10 @@ appropriate links:
 <a href="http://bugs.activestate.com/show_bug.cgi?id=234">Komodo bug 234</a> are related.</p>'
 }}}
 
+Here is a script that uses link-patterns to auto-link WikiWords (for Wiki syntaxes that do that):
+
+http://code.google.com/p/python-markdown2/source/browse/trunk/sandbox/wiki.py
+
 
 == link patterns file ==
 
@@ -46,4 +50,3 @@ $ python markdown2.py -x link-patterns --link-patterns-file patterns foo.text
 
 
 (Return to [Extras] page.)
-
