@@ -26,9 +26,8 @@ http://code.google.com/p/python-markdown2/source/browse/trunk/sandbox/wiki.py
 
 == link patterns file ==
 
-Via the command-line interface the `--link-patterns-file` option has been
-added.  A "link patterns file" (which can be passed in on the command line) has
-on link pattern per line of the form:
+For the command-line interface, the `--link-patterns-file` option has been
+added.  A "link patterns file" has one link pattern per line of the form:
 
 {{{
 <regex-pattern> <href-pattern>
