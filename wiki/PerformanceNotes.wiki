@@ -11,10 +11,7 @@ Markdown.pl.
 There are two sets of "suites" (sets of .text files to convert) that I've been
 using for testing. One is a copy of **all the test cases** from the `test` dir (see
 [TestingNotes]). The second is a .text file for **every description and comment
-in the [http://aspn.activestate.com/ASPN/Cookbook/Python/ Python Cookbook]**
-(I've been playing with a refresh of the Python Cookbook on ASPN, based on
-Django and Markdown will be a supported syntax for recipe descriptions and
-comments.) To generate the performance suites run:
+in the [http://code.activestate.com/langs/python/ Python Cookbook]**. To generate the performance suites run:
 
 {{{
 cd perf
@@ -27,6 +24,8 @@ check.
 
 
 = Timing comparisons =
+
+WARNING: `markdown.py` has gone through some significant work since I ran these numbers. I haven't followed the recent `markdown.py` work and haven't re-run the perf suite yet.
 
 Currently I compare the processing time against
 [http://daringfireball.net/projects/markdown/ Markdown.pl] and
