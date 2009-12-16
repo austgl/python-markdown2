@@ -12,6 +12,7 @@ core." However, a few optional extras are also provided.
  * [Footnotes]: support footnotes as in use on daringfireball.net and implemented in other Markdown processors (tho not in Markdown.pl v1.0.1).
  * [CodeColor]: Pygments-based syntax coloring of `<code>` sections.
  * [LinkPatterns]: Auto-link given regex patterns in text (e.g. bug number references, revision number references).
+ * [CuddledLists]: Allow lists to be cuddled to the preceding paragraph.
 
 
 = How to turn on extras =
