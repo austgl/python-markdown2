@@ -13,6 +13,9 @@ core." However, a few optional extras are also provided.
  * [CodeColor]: Pygments-based syntax coloring of `<code>` sections.
  * [LinkPatterns]: Auto-link given regex patterns in text (e.g. bug number references, revision number references).
  * [CuddledLists]: Allow lists to be cuddled to the preceding paragraph.
+* pyshell: Treats unindented Python interactive shell sessions as <code>
+  blocks. (TODO: wiki page for this)
+* xml: Passes one-liner processing instructions and namespaced XML tags. (TODO: wiki page for this)
 
 
 = How to turn on extras =
