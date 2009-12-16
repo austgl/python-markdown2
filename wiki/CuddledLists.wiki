@@ -30,11 +30,13 @@ instead of the normal:
 * bullet3</p>
 }}}
 
-Example usage:
+Example module usage:
 
 {{{
 >>> markdown2.markdown(text, extras=["cuddled-lists"])
 }}}
+
+Example command-line usage:
 
 {{{
 $ python markdown2.py -x cuddled-lists FOO.txt
