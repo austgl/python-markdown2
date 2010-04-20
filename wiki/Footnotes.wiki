@@ -14,7 +14,7 @@ This is a paragraph with a footnote. [^note-id]
 
 Which produces HTML like this:
 
-{{{{html}
+{{{
 <p>This is a paragraph with a footnote. 
 <sup class="footnote-ref" id="fnref-note-id">
 <a href="#fn-note-id">1</a></sup> 
@@ -52,4 +52,3 @@ Notes:
 from Adam Gomaa (thanks Adam!).
 
 (Return to [Extras] page.)
-
