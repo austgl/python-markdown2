@@ -4,6 +4,8 @@ This extra *disables* the use of leading and trailing `_` and `__` for emphasis
 and strong. These can easily get in the way when writing docs about source code
 with `variable_like_this` and when one is not careful about quoting.
 
+Module usage:
+
 {{{
 >>> markdown2.markdown("use 'self.this_long_attr' for the *real* mccoy")
 "<p>use 'self.this<em>long</em>attr' for the <em>real</em> mccoy</p>\n"
@@ -12,6 +14,14 @@ with `variable_like_this` and when one is not careful about quoting.
 "<p>use 'self.this_long_attr' for the <em>real</em> mccoy</p>\n"
 }}}
 
+Command-line usage:
+
+{{{
+$ cat foo.txt
+use 'self.this_long_attr' for the *real* mccoy"
+$ markdown2 -x code-friendly
+<p>use 'self.this<em>long</em>attr' for the <em>real</em> mccoy</p>
+}}}
+
 
 (Return to [Extras] page.)
-
