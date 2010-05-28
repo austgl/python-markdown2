@@ -18,7 +18,7 @@ Command-line usage:
 
 {{{
 $ cat foo.txt
-use 'self.this_long_attr' for the *real* mccoy"
+use 'self.this_long_attr' for the *real* mccoy
 $ markdown2 -x code-friendly
 <p>use 'self.this<em>long</em>attr' for the <em>real</em> mccoy</p>
 }}}
