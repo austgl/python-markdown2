@@ -1,6 +1,8 @@
 #summary What another Python Markdown implementation?
 #labels Featured
 
+= Note: This project has been moved to [https://github.com/trentm/python-markdown2 trentm/python-markdown2 on Github]. =
+
 There is already a [http://www.freewisdom.org/projects/python-markdown/Features Python markdown implementation]. So why write another one?
 
   * I've run into some issues with `markdown.py`, some of which looked like fixing might be quite difficult. My initial attempts to email the maintainer ended up bouncing. At that point I started looking into a re-write. I've noticed now that `markdown.py` is [http://sourceforge.net/projects/python-markdown/ hosted on SourceForge]. (TODO: create issues there and link to them here.)
