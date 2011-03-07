@@ -1,5 +1,7 @@
 #summary The "footnotes" extra
 
+= Note: This project has been moved to [https://github.com/trentm/python-markdown2 trentm/python-markdown2 on Github]. =
+
 (Note: This extra is still a little experimental. The final result will be
 almost exactly as now, but I want to make sure the generated output is as close
 to other Markdown implementations as reasonable and possible.)
