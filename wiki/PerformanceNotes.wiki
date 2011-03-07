@@ -1,6 +1,8 @@
 #summary Performance notes on Markdown implementations
 #labels Featured
 
+= Note: This project has been moved to [https://github.com/trentm/python-markdown2 trentm/python-markdown2 on Github]. =
+
 The markdown2 sources have a `perf` sub-directory with some performance tools
 for profiling markdown2 and comparing its speed against markdown.py and
 Markdown.pl.
