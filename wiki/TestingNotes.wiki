@@ -1,6 +1,8 @@
 #summary Testing notes for markdown.py
 #labels Featured
 
+= Note: This project has been moved to [https://github.com/trentm/python-markdown2 trentm/python-markdown2 on Github]. =
+
 The markdown2 sources' `test` sub-directory holding it's test suite.
 There are a number of test sets, each in its own directory:
 
