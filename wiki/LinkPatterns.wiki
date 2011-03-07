@@ -1,5 +1,7 @@
 #summary The "link-patterns" extra
 
+= Note: This project has been moved to [https://github.com/trentm/python-markdown2 trentm/python-markdown2 on Github]. =
+
 The "link-patterns" extra enables mapping of given regex patterns in text to
 links. The `link_patterns` list on the `Markdown` class provides
 the mapping.  
