@@ -1,6 +1,8 @@
 #summary Extras provided by markdown2.py
 #labels Featured
 
+= Note: This project has been moved to [https://github.com/trentm/python-markdown2 trentm/python-markdown2 on Github]. =
+
 By default `markdown2.py`'s processing attempts to produce output exactly as
 defined by http://daringfireball.net/projects/markdown/syntax -- the "Markdown
 core." However, a few optional extras are also provided.
