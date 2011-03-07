@@ -1,5 +1,7 @@
 #summary The "cuddled-lists" extra
 
+= Note: This project has been moved to [https://github.com/trentm/python-markdown2 trentm/python-markdown2 on Github]. =
+
 This extra allows a list to be cuddled to a preceding paragraph. (Normally a blank line is necessary between a leading paragraph and a bulleted list.) For example, with this extra, this text:
 
 {{{
