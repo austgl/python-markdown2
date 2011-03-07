@@ -1,5 +1,7 @@
 #summary The "code-friendly" extra
 
+= Note: This project has been moved to [https://github.com/trentm/python-markdown2 trentm/python-markdown2 on Github]. =
+
 This extra *disables* the use of leading and trailing and (most importantly) *intra-word* emphasis and strong using underscores. These can easily get in the way when writing docs about source code with `variables_like_this` or (common in Python) like the following: `_my_internal_var`, `_version_`, `__init__`, `__repr__`, etc.
 
 Module usage:
